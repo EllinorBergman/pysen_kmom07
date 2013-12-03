@@ -1,0 +1,94 @@
+/** 
+ * Description: Core theme for Lydia
+ */
+
+/**
+ * Structure
+ */
+html{background-color:#eee;}
+body{margin:0;padding:0;color:#333;background-color:#eee;
+  font: 0.8em Verdana, Arial, Helvetica, sans-serif; font-weight: 100;}
+
+#wrap-header {}
+#wrap-main {}
+#wrap-footer {border-top:0px solid #ccc;background-color:#eee;}
+
+#header,
+#main {margin:0 auto;width:890px;padding:8px;}
+#footer {margin:0 auto;width:790px;padding:8px;}
+#main,
+#footer {margin-bottom:16px;}
+
+#header {background-color:#fff; padding: 50px 40px;}
+#main {background-color:#fff;}
+#main {min-height:300px; padding: 10px 40px 40px 40px;}
+#footer {font-size:0.80em;color:#999;background-color:#555; padding: 90px; margin-top: -20px;}
+
+
+/**
+ * Login menu
+ */
+#login-menu{float:right;}
+#login-menu img.gravatar{vertical-align:middle;}
+#login-menu a{text-decoration:none;}
+#login-menu a:hover{text-decoration:underline;}
+
+
+.validation-failed{border:2px solid red;}
+.validation-message{color:red;font-size:smaller;}
+
+
+/**
+ * Banner
+ */
+#banner {display:table;margin-bottom:10px;}
+
+.site-logo,
+.site-title,
+.site-slogan {display:table-cell;width:inherit;vertical-align:middle;text-align:left;}
+
+.site-logo {}
+.site-title,
+.site-slogan {font-family:Times New Roman;line-height:0;padding-left:20px;color:#333;
+  text-shadow:#fff 1px 1px 1px;}
+.site-title  {font-size:4em;font-weight:bold;}
+.site-slogan {font-size:1.5em;}
+
+
+/**
+ * Links
+ */
+a         {color:inherit;}
+a:link    {}
+a:visited {}
+a:hover,
+a:focus   {text-decoration:none;color:#5C0A0A;}
+a:active  {}
+
+
+/**
+ * Headings
+ */
+h1{border-bottom:3px double #eee;padding-bottom:4px; font-weight: 100; font-family: helvetica;}
+h2{border-bottom:1px solid #eee;padding-bottom:4px; font-weight: 100; font-family: helvetica;}
+
+
+/**
+ * User feedback message wrappers.
+ */
+.error, .alert, .warning, .notice, .success, .info { 
+padding: 0.8em; margin-bottom: 1em; border: 2px solid #ddd; }
+
+.error, .alert { background: #fbe3e4; color: #8a1f11; border-color: #fbc2c4; }
+.notice, .warning { background: #fff6bf; color: #514721; border-color: #ffd324; }
+.success       { background: #e6efc2; color: #264409; border-color: #c6d880; }
+.info          { background: #d5edf8; color: #205791; border-color: #92cae4; }
+.error a, .alert a { color: #8a1f11; }
+.notice a, .warning a { color: #514721; }
+.success a         { color: #264409; }
+.info a            { color: #205791; }
+
+
+/**
+ * Misc
+ */
